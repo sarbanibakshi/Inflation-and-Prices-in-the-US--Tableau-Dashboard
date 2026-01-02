@@ -13,6 +13,8 @@ The goal of this project is to:
 
 * Present the changes in the different indices to understand the movements of the US economy.
 
+![Inflation and Prices in the US](https://i.postimg.cc/PqkjBNny/Inflation-and-Prices-in-the-US-2005-2025.png)
+
 The dashboard intends to show:
 
 * Historical trends and fluctuations in inflation.
