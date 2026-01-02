@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Tableau Dashboard</title>
+    <!-- 1. Link to the Embedding API library -->
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+    <h1>My Tableau Dashboard</h1>
+    <!-- 2. Add the <tableau-viz> web component -->
+    <tableau-viz
+        id="tableauViz"
+        src="https://public.tableau.com/views/InflationandPricesintheUS2005-2025/InflationandPricesintheUS2005-2025?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+        width="800"
+        height="600"
+        toolbar="bottom"
+    ></tableau-viz>
+</body>
+</html>
